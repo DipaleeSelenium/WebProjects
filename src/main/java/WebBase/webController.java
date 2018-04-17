@@ -16,7 +16,7 @@ public class webController {
 			return driver;
 		}
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\D4668829\\Desktop\\driver\\chromedriver.exe");
+				"Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://soclean.mutlp.test.pointp.saint-gobain.net/soclean/vehicle");
